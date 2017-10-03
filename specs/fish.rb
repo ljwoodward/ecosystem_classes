@@ -1,0 +1,10 @@
+require_relative("../bears.rb")
+require_relative("../rivers.rb")
+require("minitest/autorun")
+require("minitest/rg")
+
+class TestBears < MiniTest::Test
+
+  def setup
+
+  end
