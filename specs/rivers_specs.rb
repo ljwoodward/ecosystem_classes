@@ -7,7 +7,11 @@ require("minitest/rg")
 class TestRivers < MiniTest::Test
 
   def setup
-    @river1 = River.new("Phoenix", [@fish1, @fish2, @fish3, @fish4, @fish5])
+    @river1 = River.new("Phoenix", [@fish1, @fish2, @fish3, @fish4])
+  end
+
+  def test_get_river_name
+    assert_equal(@river1.name, "Phoenix")
   end
 
 
