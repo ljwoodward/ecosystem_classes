@@ -7,5 +7,8 @@ require("minitest/rg")
 class TestRivers < MiniTest::Test
 
   def setup
-
+    @river1 = River.new("Phoenix", [@fish1, @fish2, @fish3, @fish4, @fish5])
   end
+
+
+end
