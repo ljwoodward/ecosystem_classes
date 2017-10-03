@@ -1,4 +1,5 @@
 require_relative("../bears.rb")
+require_relative("../fish.rb")
 require_relative("../rivers.rb")
 require("minitest/autorun")
 require("minitest/rg")
