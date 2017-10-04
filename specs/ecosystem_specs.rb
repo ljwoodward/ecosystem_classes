@@ -40,7 +40,7 @@ class TestBears < MiniTest::Test
   end
 
   def test_fish_gets_eaten
-    @river1.fish_gets_eaten(@fish1, @bear1)
+    @river1.fish_gets_eaten(@fish1)
     assert_equal(@river1.fish_in_river, [@fish2, @fish3, @fish4])
   end
 

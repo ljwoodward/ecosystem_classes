@@ -10,7 +10,7 @@ class Bear
 
   def eats_fish(fish, river)
     @stomach_contents.push(fish)
-    river.fish_gets_eaten(fish, self)
+    river.fish_gets_eaten(fish)
   end
 
 end
